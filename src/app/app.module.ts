@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrarComponent } from './registrar/registrar.component';
+import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    RegistrarComponent,
+    RecuperarContrasenaComponent
   ],
   imports: [
     BrowserModule,
