@@ -9,32 +9,46 @@
 
 <body class="screen">
 
-    
+
 
         <section>
             <div class="signin">
 
                 <div class="content">
 
-                    <h2>Recuperar Contrasena</h2>
+                    <h2>Registrar</h2>
 
                     <div class="form">
 
                         <div class="inputBox">
-
-                            <input type="email" required> <i>Email registrado</i>
-
+                            <input type="text" required> <i>Nombre completo</i>
                         </div>
+                      <div class="inputBox">
+                        <input type="email" required> <i>Email </i>
+                      </div>
+                      <div class="inputBox">
+                        <input type="date" required> <i>Fecha nacimiento</i>
+                      </div>
+                      <div class="inputBox">
+                      <input type="number" required> <i>Numero telefonico</i>
+                    </div>
+                      <div class="inputBox">
+                        <input type="text" required> <i> Nueva contrasena</i>
+                      </div>
+                      <div class="inputBox">
+                        <input type="text" required> <i> Confirmar contrasena</i>
+                      </div>
 
 
 
-                        <div class="links"> <a href="#">Login</a> <a href="#">Registrarse </a>
+
+                      <div class="links"> <a routerLink="">Login</a> <a routerLink="/recuperar">Recuperar contrasena </a>
 
                         </div>
 
                         <div class="inputBox">
 
-                            <input type="submit" value="Enviar email ">
+                            <button> Registrar </button>
 
                         </div>
 
@@ -43,9 +57,9 @@
                 </div>
 
             </div>
-          
+
       </section>
-   
+
 </body>
 
 </html>
